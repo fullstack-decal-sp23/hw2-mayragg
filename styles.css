@@ -30,12 +30,15 @@ h2 {
 
 .twovert {
   height: 50%;
+  /* background-color: #ffcf00; */
 }
 
 .threevert {
-  height: 100px;
-  width: 500px;
-  background-color: #e10017;
+  /* height: 100px;
+  width: 500px; */
+  /* display: flex;
+  flex-direction: row; */
+  /* background-color: #e10017; */
 }
 
 .threehoriz {
@@ -63,12 +66,13 @@ h2 {
 
 /* QUESTION 1 */
 
-.redthreevert {
-  height: 300px;
-  width: 500px;
+.red {
   background-color: red;
 }
 
+#white {
+  background-color: white;
+}
 
 .orange {
   background-color: orange;
@@ -86,7 +90,7 @@ h2 {
   background-color: blue;
 }
 
-.lightblue {
+.light-blue {
   background-color: lightblue;
 }
 
@@ -105,15 +109,20 @@ h2 {
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
-  /* TODO */
+  background-color: #B5002D;
+  height: 50px;
 }
 
 .thailand-white {
   /* TODO */
+  height: 50px;
+  background-color: white;
 }
 
 .thailand-blue {
   /* TODO */
+  height: 100px;
+  background-color: #2E2A4C;
 }
 
 /* END QUESTION 2 */
@@ -121,14 +130,20 @@ h2 {
 /* BEGIN QUESTION 3 */
 
 .romania-blue {
+  width: 33.3%;
+  height: 300px;
   background-color: #002c84;
 }
 
 .romania-yellow {
+  width: 33.3%;
+  height: 300px;
   background-color: #ffcf00;
 }
 
 .romania-red {
+  width: 33.3%;
+  height: 300px;
   background-color: #e10017;
 }
 
