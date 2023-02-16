@@ -24,6 +24,7 @@ h2 {
   height: 300px;
   width: 500px;
   border-style: solid;
+  /* margin: 5px; */
   margin-bottom: 5rem;
   /* background-color: #e10017; */
 }
@@ -60,6 +61,15 @@ h2 {
   position: relative;
   left: 85px;
   top: 50px;
+}
+
+.label {
+  color: purple;
+}
+
+.label:hover {
+  color: orange;
+  font-size: 22px;
 }
 
 /* Colors */
@@ -180,15 +190,22 @@ h2 {
   justify-content: center;
 }
 
+
 /* For margin practice */
 .flag1 {
   background-color: red;
+  height: 300px;
+  width: 500px;
   /* TODO */
+  margin: 5px;
 }
 
 .flag2 {
   background-color: blue;
+  height: 300px;
+  width: 500px;
   /* TODO */
+  margin: 5px;
 }
 /* For padding practice */
 .padding-container {
@@ -196,4 +213,6 @@ h2 {
   background-color: lightblue;
   background-clip: content-box, padding-box;
   /* TODO */
+  padding-top: 270px;
+  padding: 30px;
 }
