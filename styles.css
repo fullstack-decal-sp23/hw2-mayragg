@@ -34,8 +34,8 @@ h2 {
 }
 
 .threevert {
-  /* height: 100px;
-  width: 500px; */
+  height: 33.3%;
+  width: 500px;
   /* display: flex;
   flex-direction: row; */
   /* background-color: #e10017; */
@@ -114,13 +114,12 @@ h2 {
 }
 
 .thailand-white {
-  /* TODO */
   height: 50px;
   background-color: white;
 }
 
 .thailand-blue {
-  /* TODO */
+  
   height: 100px;
   background-color: #2E2A4C;
 }
@@ -151,14 +150,23 @@ h2 {
 
 /* QUESTION 4 */
 .mexico-green {
+  width: 33.3%;
+  height: 300px;
   background-color: #006341;
 }
 
 .mexico-img {
   /* TODO */
+  max-width: 500;
+  max-height: 300px;
+  align-self: center;
+  background-image: url("eagle.png");
+  
 }
 
 .mexico-red {
+  width: 33.3%;
+  height: 300px;
   background-color: #ce1126;
 }
 
